@@ -1,0 +1,26 @@
+<html ng-app="adminApp">
+<head>
+
+<!-- -->
+<link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+<!-- -->
+
+<script src="../bower_components/jquery/dist/jquery.js"></script>
+<script type="text/javascript" src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../bower_components/angular/angular.min.js"></script>
+<script type="text/javascript" src="../bower_components/angular-route/angular-route.js"></script>
+
+<!-- module scripts include -->
+<script type="text/javascript" src="app.module.js"></script>
+<script type="text/javascript" src="modules/home/home.js"></script>
+<!-- module scripts include -->
+
+</head>
+<body ng-controller='appCtrl as vm'>
+<div class="page-container horizontal-menu">
+<h1>This is home</h1>
+  <ng-view></ng-view>
+</div>
+</body>
+</html>

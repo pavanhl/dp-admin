@@ -1,0 +1,30 @@
+{
+  "name": "dp-admin",
+  "version": "0.0.0",
+  "homepage": "https://github.com/homelane/dp-admin",
+  "description": "dp admin client api",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.2",
+    "angular-route": "~1.2.0",
+    "bootstrap": "~3.3.5",
+    "jquery": "~2.1.1"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.2.0",
+    "angular-bootstrap": "~0.12.0"
+  },
+  "resolutions": {
+    "angular": ">=1.2.18"
+  }
+}
